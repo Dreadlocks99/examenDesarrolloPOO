@@ -167,6 +167,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -236,7 +237,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2-RepoHastaLaTerceraIteracion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../3-RepoHastaClase4" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -283,7 +285,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVotacion.AgregarVariasListasYVerificarSuVigencia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestVotacion.AgregarVotoACargoEspecifico" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="elecciones" />
       <extension name="coverage">
         <pattern>
@@ -293,7 +295,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="domain" />
       <option name="MAIN_CLASS_NAME" value="domain.TestVotacion" />
-      <option name="METHOD_NAME" value="AgregarVariasListasYVerificarSuVigencia" />
+      <option name="METHOD_NAME" value="AgregarVotoACargoEspecifico" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -304,7 +306,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVotacion.CrearPartidoSinVigenciaCambiarlaYSumarloALaEleccion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestVotacion.VerificarQueUnMenorDeEdadNoPuedeVotar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="elecciones" />
       <extension name="coverage">
         <pattern>
@@ -314,7 +316,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="domain" />
       <option name="MAIN_CLASS_NAME" value="domain.TestVotacion" />
-      <option name="METHOD_NAME" value="CrearPartidoSinVigenciaCambiarlaYSumarloALaEleccion" />
+      <option name="METHOD_NAME" value="VerificarQueUnMenorDeEdadNoPuedeVotar" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -325,7 +327,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVotacion.VerificarLaVigenciaDeCanviemos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestVotacion.VotarUnaListaYVerificarSiVotaTodosLosCandidatos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="elecciones" />
       <extension name="coverage">
         <pattern>
@@ -335,7 +337,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="domain" />
       <option name="MAIN_CLASS_NAME" value="domain.TestVotacion" />
-      <option name="METHOD_NAME" value="VerificarLaVigenciaDeCanviemos" />
+      <option name="METHOD_NAME" value="VotarUnaListaYVerificarSiVotaTodosLosCandidatos" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -346,7 +348,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVotacion.verificarSiLaListaEntraEnLaEleccion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestVotacion.preguntarSiYaVoto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="elecciones" />
       <extension name="coverage">
         <pattern>
@@ -356,7 +358,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="domain" />
       <option name="MAIN_CLASS_NAME" value="domain.TestVotacion" />
-      <option name="METHOD_NAME" value="verificarSiLaListaEntraEnLaEleccion" />
+      <option name="METHOD_NAME" value="preguntarSiYaVoto" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -381,10 +383,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestVotacion" />
-        <item itemvalue="JUnit.TestVotacion.CrearPartidoSinVigenciaCambiarlaYSumarloALaEleccion" />
-        <item itemvalue="JUnit.TestVotacion.AgregarVariasListasYVerificarSuVigencia" />
-        <item itemvalue="JUnit.TestVotacion.verificarSiLaListaEntraEnLaEleccion" />
-        <item itemvalue="JUnit.TestVotacion.VerificarLaVigenciaDeCanviemos" />
+        <item itemvalue="JUnit.TestVotacion.VerificarQueUnMenorDeEdadNoPuedeVotar" />
+        <item itemvalue="JUnit.TestVotacion.VotarUnaListaYVerificarSiVotaTodosLosCandidatos" />
+        <item itemvalue="JUnit.TestVotacion.AgregarVotoACargoEspecifico" />
+        <item itemvalue="JUnit.TestVotacion.preguntarSiYaVoto" />
       </list>
     </recent_temporary>
   </component>
@@ -441,7 +443,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
