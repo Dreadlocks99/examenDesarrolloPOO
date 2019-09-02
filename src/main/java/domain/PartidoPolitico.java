@@ -2,15 +2,20 @@ package domain;
 
 import java.time.LocalDate;
 
-public class PartidoPolitico {
+public class PartidoPolitico extends AgrupacionPolitica{
     private String nombre;
     private LocalDate fechaConformacion;
     private boolean vigencia;
 
-    public PartidoPolitico(String nombre, LocalDate fechaConformacion, boolean vigencia) {
+    //TERCERA ITERACION:
+    private boolean presentoLista;
+    //----------------------------------------------------------------------------------------------------------------
+
+    public PartidoPolitico(String nombre, LocalDate fechaConformacion, boolean vigencia,boolean presentoLista) {
         this.nombre = nombre;
         this.fechaConformacion = fechaConformacion;
         this.vigencia = vigencia;
+        this.presentoLista = presentoLista;
     }
 
     public String getNombre() {

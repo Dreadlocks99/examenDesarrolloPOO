@@ -15,7 +15,7 @@ public class TestVotacion {
     @Before
     public void init(){
     this.unaPersona = new Persona("Jorge",Cargo.DIPUTADO,50);
-    this.unPartido = new PartidoPolitico("FrenteDeDerechaFascista", LocalDate.now(),true);
+    this.unPartido = new PartidoPolitico("FrenteDeDerechaFascista", LocalDate.now(),true,true);
     this.unaLista = new Lista("ListaUno",50,unPartido);
     this.unaEleccion = new Eleccion();
 }
@@ -61,7 +61,7 @@ public class TestVotacion {
     @Test
     public void AgregarVariasListasYVerificarSuVigencia(){
 
-        PartidoPolitico otroPartido = new PartidoPolitico("Kukas", LocalDate.now(),false);
+        PartidoPolitico otroPartido = new PartidoPolitico("Kukas", LocalDate.now(),false,true);
         Lista otraLista = new Lista("ListaUno",50,unPartido);
 
         unaEleccion.agregarLista(unPartido,unaLista);
@@ -75,7 +75,7 @@ public class TestVotacion {
      @Test
     public void CrearPartidoSinVigenciaCambiarlaYSumarloALaEleccion(){
 
-        PartidoPolitico otroPartido = new PartidoPolitico("FrenteDeIzquierdaComunista", LocalDate.now(),false);
+        PartidoPolitico otroPartido = new PartidoPolitico("FrenteDeIzquierdaComunista", LocalDate.now(),false,true);
         Lista otraLista = new Lista("ListaUno",50,unPartido);
 
         unaEleccion.agregarLista(otroPartido,otraLista);
@@ -183,5 +183,6 @@ public class TestVotacion {
     //------------------------------------------------------------------------------------------------------------------
     //TERCERA ITERACION:
 
+    //No llegue U.U
 
 }
